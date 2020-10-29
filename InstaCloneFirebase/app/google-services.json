@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "244168019061",
+    "firebase_url": "https://instaclonefirebase-14b58.firebaseio.com",
+    "project_id": "instaclonefirebase-14b58",
+    "storage_bucket": "instaclonefirebase-14b58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244168019061:android:d2955ce7f729661cdbbc3c",
+        "android_client_info": {
+          "package_name": "com.fburaky.instaclonefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244168019061-a4171n298li4ohau3uoa6neha35mcqsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8flPEiZ_7uRc4sy2atREzilPoEl77is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244168019061-a4171n298li4ohau3uoa6neha35mcqsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
