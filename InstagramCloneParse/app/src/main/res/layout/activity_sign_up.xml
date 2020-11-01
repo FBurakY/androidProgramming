@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <Button
+        android:id="@+id/sign_up_activity_button"
+        android:layout_width="197dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="140dp"
+        android:onClick="SignUpButton"
+        android:text="Sing Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in_activity_button" />
+
+    <EditText
+        android:id="@+id/sign_up_activity_password_text"
+        android:layout_width="204dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_activity_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sing_up_activity_text" />
+
+    <EditText
+        android:id="@+id/sing_up_activity_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#D50000"
+        app:layout_constraintBottom_toTopOf="@+id/sign_up_activity_password_text"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_activity_password_text"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_activity_password_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sign_in_activity_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:background="#AEEA00"
+        android:backgroundTint="#304FFE"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="SignInButton"
+        android:text="Sign In"
+        app:layout_constraintBottom_toTopOf="@+id/sign_up_activity_button"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_activity_button"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_activity_button"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_activity_password_text"
+        app:strokeColor="#DD2C00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
