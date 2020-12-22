@@ -1,0 +1,8 @@
+com/fburaky/javafragment/SecondFragment.java
+ com.fburaky.javafragment.SecondFragment
+com/fburaky/javafragment/BuildConfig.java
+ com.fburaky.javafragment.BuildConfig
+com/fburaky/javafragment/FirstFragment.java
+ com.fburaky.javafragment.FirstFragment
+com/fburaky/javafragment/MainActivity.java
+ com.fburaky.javafragment.MainActivity
